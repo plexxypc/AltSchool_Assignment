@@ -1,0 +1,401 @@
+body{
+    background-color: #F5F8FA;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: Lato;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+
+/*Start header section*/
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo, nav{
+    flex: 1;
+    padding: 10px;
+}
+
+.logo{
+    padding: 20px;
+    top: 10px;
+    left: 30px;
+    position: relative;
+    align-content: flex-end;
+}
+
+nav{
+    position: relative;
+    top: -5px;
+    right: 30px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    padding: 10px 30px 10px 30px;
+}
+
+nav ul li:hover{
+    border: 2px #646E7A solid;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #1D2C3C;
+}
+
+.active{
+    border: 2px #646E7A solid;
+    border-radius: 5px;
+}
+
+hr{
+    color: #E0E6EA;
+    opacity: 0.2;
+    width: 95%;
+    position: relative;
+    right: 10px;
+}
+
+.hamburger{
+    display: none;
+}
+
+/*Complete header section*/
+
+/*Start main section*/
+main{
+    width: 892px;
+    height: 795px;
+    place-content: center;
+    place-items: center;
+    place-self: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+}
+
+/*Checkout section for user input*/
+.checkout{
+    top: 0;
+    margin: 0;
+    position: relative;
+}
+
+.checkout hr{
+    background-size: cover;
+    background: #F5F7FA;
+    position: relative;
+    left: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.main-h1{
+    padding: 0 0 10px 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #1D2C3C;
+    margin-top: -10px;
+}
+
+
+.checkout .row{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.us-info{
+    padding: 20px 0 20px 50px;
+}
+
+.us-info span{
+    padding: 20px 0 50px 10px;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    position: relative;
+    bottom: 10px;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4{
+    padding: 0 0 20px 50px;
+}
+
+.row label{
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input{
+    background-color: #EDEFF2;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+}
+
+.col input{
+    width: 370px;
+}
+
+.col-1 input, .col-2 input{
+    width: 227px;
+}
+
+.col-4 #credit-card-details{
+    width: 293px;
+}
+
+.col-4 #date{
+    width: 154px;
+}
+
+.col-4 #cvc{
+    width: 36px;
+}
+
+.disclaimer{
+    justify-content: center;
+    text-align: center;
+}
+
+.buy-btn{
+    align-content: center;
+    width: 80%;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #038E7D;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.396px;   
+    border: none;
+}
+
+p{
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.gray-text{
+    color: #646E7A;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 5px;
+    letter-spacing: -0.01px;
+}
+
+p>strong{
+    position: relative;
+    bottom: 5px;
+}
+
+.support-text{
+    width: 333px;
+    text-align: left;
+    padding: 10px 0 0 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.question-mark{
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 7px;
+}
+/*End of checkout section*/
+
+/*Freelancer details section*/
+.freelance-details{
+    align-items: flex-end;
+    width: 370px;
+    position: relative;
+    background: #1179BF;
+    color: #ffffff;
+    padding: 0 40px 0 40px;
+    top: 0;
+    margin: 0;
+    height: 795px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.top-details{
+    padding: 60px 0 30px 0;
+}
+
+.freelance-details h2{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.dollar{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.015px;
+    position: relative;
+    bottom: 16px;
+}
+
+.year99{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+.freelance-details p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+.freelance-details p>i{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.008px;
+}
+
+.list-benefits{
+    position: relative;
+    bottom: 20px;
+}
+
+.list-benefits span{
+    padding: 20px;
+    position: relative;
+    bottom: 5px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.008px;
+}
+
+.client-profile img{
+    border-radius: 100%;
+}
+
+.client-profile span{
+    position: relative;
+    bottom: 15px;
+    padding: 0 0 0 10px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.008px;
+}
+
+.ad{
+    padding: 0 0 10px 0;
+}
+
+.testimonial{
+    padding: 10px 0 0 0;
+}
+/*End freelancer details section*/
+
+/*Footer section*/
+footer{
+    text-align: center;
+    padding: 10px 0 50px 0;
+}
+
+footer p{
+    color: #31708F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*End footer section*/
+
+/*Mobile View*/
+@media (max-width: 768px) {
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    .logo{
+        padding-left: 0;
+    }
+
+    .hamburger{
+        display: block;
+        position: relative;
+        top: 35px;
+        left: 20px;
+        float: right;
+    }
+}
