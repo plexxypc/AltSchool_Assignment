@@ -1,4 +1,3 @@
-// Calling the 'http' module
 const http = require('http');
 
 // Setting the hostname and port number
