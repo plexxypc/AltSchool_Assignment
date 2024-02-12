@@ -1,0 +1,16 @@
+{
+  "name": "assignment_package",
+  "version": "1.0.0",
+  "description": "This is the overall package for Altschool assignments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\Users\\Shopinverse\\OneDrive\\Desktop\\AltSchool_Assignment"
+  },
+  "author": "Paul Udor",
+  "license": "ISC"
+}
