@@ -1,0 +1,11 @@
+{
+  "name": "altschool_assignment",
+  "version": "1.0.0",
+  "description": "All Altschool assignments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Udor",
+  "license": "ISC"
+}
