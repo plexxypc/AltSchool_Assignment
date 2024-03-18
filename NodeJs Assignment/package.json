@@ -2,10 +2,10 @@
   "name": "assignment_package",
   "version": "1.0.0",
   "description": "This is the overall package for Altschool assignments",
-  "main": "simple-server-http-modules.js",
+  "main": "authentication.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node simple-server-http-modules.js"
+    "start": "node authentication.js"
   },
   "repository": {
     "type": "git",
