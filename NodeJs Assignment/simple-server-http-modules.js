@@ -4,9 +4,9 @@ const querystring = require('querystring');
 
 // Sample data
 let books = [
-    { id: 1, title: "Book 1", author: "Author 1" },
-    { id: 2, title: "Book 2", author: "Author 2" },
-    { id: 3, title: "Book 3", author: "Author 3" }
+    { id: 1, title: "Breaking the Barriers of Web3: Crypto, DeFi & Exchanges", author: "Author 1" },
+    { id: 2, title: "Gambling Effects: The Positives & Negatives", author: "Author 2" },
+    { id: 3, title: "Who Comes First: Mother or Child? A Case For & Against Abortion", author: "Author 3" }
 ];
 
 const server = http.createServer((req, res) => {
